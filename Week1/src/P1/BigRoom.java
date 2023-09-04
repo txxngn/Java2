@@ -8,7 +8,7 @@ public class BigRoom {
     }
 
     BigRoom(double newLength, double newWidth) {
-        length = newLength;             //dù variable là private nhưng parameter là "newLength", là khác tên
+        length = newLength;             //dù variable là private nhưng parameter là "newLength", là khác tên.
         width = newWidth;               //nên k nhất thiết phải có this ở đây
     }
 
