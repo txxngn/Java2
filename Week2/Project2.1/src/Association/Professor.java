@@ -1,4 +1,7 @@
 package Association;
+/*
+*
+*/
 public class Professor {
    private String firstName;
    private String lastName;
