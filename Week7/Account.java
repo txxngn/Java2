@@ -1,11 +1,12 @@
-package ObjectBinaryIO;
+package ReadManyObjects;
 
-import java.io.*;
+import java.io.Serializable;
+
 public class Account implements Serializable {
     String name;
     String id;
     double balance;
-    public Account (String name, String id, double balance){
+    public Account(String name, String id, double balance){
         this.name=name;
         this.id = id;
         this.balance = balance;
